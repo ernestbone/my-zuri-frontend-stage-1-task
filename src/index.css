@@ -11,3 +11,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+}
+
+a{
+  color: #101828;
+  text-decoration: none;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+  box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+background-color: #EAECF0;
+margin-bottom: 20px;
+margin-left: 15%;
+border: 1px solid #EAECF0;
+border-radius: 8px;
+width: 70%;
+}
+
+a:hover{
+  background-color: darkgrey;
+  color: #EAECF0;
+}
+
+.social{
+  margin: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+#center_footer{
+  padding: 0 25% 0 25%;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #667085;
+padding-top: 20px;
+}
+
+#left_footer{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+strong{
+  color: red;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  footer{
+    display: block;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+
+  #center_footer{
+    
+  padding:10px;
+  }
+  
+}
